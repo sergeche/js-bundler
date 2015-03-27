@@ -1,6 +1,6 @@
 {
   "name": "js-bundler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Browserify to bundle & uglify ES6 code",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
     "gulp-util": "^3.0.3",
     "through2": "^0.6.3",
     "uglify-js": "^2.4.16",
-    "watchify": "^2.4.0",
+    "watchify": "^2.6.2",
     "xtend": "^4.0.0"
   },
   "devDependencies": {
