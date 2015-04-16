@@ -6,7 +6,7 @@ module.exports = function(obj) {
 		throw new Error('Grunt is not currently supported');;
 	}
 
-	return module.exports.gulp(options).on('error', function(err) {
+	return module.exports.gulp(obj).on('error', function(err) {
 		notifier.notify({
 			title: 'Error', 
 			message: err,
