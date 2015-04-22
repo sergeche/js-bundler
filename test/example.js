@@ -1,8 +1,10 @@
 import InnerClass from './inner';
 
-class Test {
+export class Test {
+
 	constructor() {
 		this.fn = (b) => this.foo();
+		this.version = '%VERSION%';
 	}
 
 	foo() {
