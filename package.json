@@ -1,6 +1,6 @@
 {
   "name": "js-bundler",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Use Browserify to bundle & uglify ES6 code",
   "main": "index.js",
   "scripts": {
